@@ -1,1 +1,0 @@
-import{d as e,q as t,aB as o,aH as a,u as r,z as n}from"./arco.cd1452d2.js";import{P as s}from"./index.43ba9d5a.js";import"./vue.c40a1ecc.js";import"./index.acfe220d.js";import"./index.1df183a4.js";const i=n("div",null,"monitor",-1),x=e({__name:"index",setup(m){return(p,_)=>(t(),o(r(s),null,{default:a(()=>[i]),_:1}))}});export{x as default};
