@@ -1,0 +1,1 @@
+import{aA as e,q as r,aB as t}from"./arco.ba13499e.js";import{_ as a}from"./index.b1840600.js";import"./vue.4339f124.js";const c={};function n(_,s){const o=e("router-view");return r(),t(o)}var i=a(c,[["render",n]]);export{i as default};
