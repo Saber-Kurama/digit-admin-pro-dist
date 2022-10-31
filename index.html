@@ -5,15 +5,15 @@
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="/favicon.ico"
+      href="/admin-pro/favicon.ico"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>数势科技 - 开箱即用的中台前端/设计解决方案</title>
-    <script type="module" crossorigin src="/assets/index.af2223e6.js"></script>
-    <link rel="modulepreload" href="/assets/arco.606f24e8.js">
-    <link rel="modulepreload" href="/assets/chart.4898ad7b.js">
-    <link rel="modulepreload" href="/assets/vue.bfa5f5d7.js">
-    <link rel="stylesheet" href="/assets/index.5068d367.css">
+    <script type="module" crossorigin src="/admin-pro/assets/index.d62325bd.js"></script>
+    <link rel="modulepreload" href="/admin-pro/assets/arco.0f8f7318.js">
+    <link rel="modulepreload" href="/admin-pro/assets/chart.24008d58.js">
+    <link rel="modulepreload" href="/admin-pro/assets/vue.2b1a2a3a.js">
+    <link rel="stylesheet" href="/admin-pro/assets/index.1c2bf199.css">
   </head>
   <body>
     <div id="app">
@@ -39,8 +39,7 @@
         }
 
         .dot {
-          -webkit-animation: antRotate 1.2s infinite linear;
-                  animation: antRotate 1.2s infinite linear;
+          animation: antRotate 1.2s infinite linear;
           transform: rotate(45deg);
           position: relative;
           display: inline-block;
@@ -60,8 +59,7 @@
           transform: scale(0.75);
           transform-origin: 50% 50%;
           opacity: 0.3;
-          -webkit-animation: antSpinMove 1s infinite linear alternate;
-                  animation: antSpinMove 1s infinite linear alternate;
+          animation: antSpinMove 1s infinite linear alternate;
         }
 
         .dot i:nth-child(1) {
@@ -72,21 +70,18 @@
         .dot i:nth-child(2) {
           top: 0;
           right: 0;
-          -webkit-animation-delay: 0.4s;
           animation-delay: 0.4s;
         }
 
         .dot i:nth-child(3) {
           right: 0;
           bottom: 0;
-          -webkit-animation-delay: 0.8s;
           animation-delay: 0.8s;
         }
 
         .dot i:nth-child(4) {
           bottom: 0;
           left: 0;
-          -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
         }
 
@@ -96,19 +91,7 @@
           }
         }
 
-        @-webkit-keyframes antRotate {
-          to {
-            transform: rotate(405deg);
-          }
-        }
-
         @keyframes antSpinMove {
-          to {
-            opacity: 1;
-          }
-        }
-
-        @-webkit-keyframes antSpinMove {
           to {
             opacity: 1;
           }
